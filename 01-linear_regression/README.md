@@ -1,9 +1,9 @@
-# Introduction to Linear Regression and Gradient Descent 🏔
-This code has been forked from: https://github.com/michaelhaar/Intro-to-Linear-Regression-and-Gradient-Descent
+# Introduction to Linear Regression and Gradient Descent
+NOTE: This code has been forked from: https://github.com/michaelhaar/Intro-to-Linear-Regression-and-Gradient-Descent
 
 This project contains the code for [this](https://youtu.be/uwwWVAgJBcM) video on Youtube by Siraj Raval and is aimed to teach the concept of "Gradient Descent". We are using a small dataset of student test scores and the amount of hours they studied. Intuitively, there must be a relationship right? The more you study, the better your test scores should be. We're going to use [linear regression](https://onlinecourses.science.psu.edu/stat501/node/250) to prove this relationship.
 
-The target is to predict the students test score, when given the amount they studied 📖🤓📚.
+The target is to predict the students test score, when given the amount they studied.
 
 <p align="center">
   <img src="Linear_regression_files/Linear_regression_3_0.png">
@@ -11,7 +11,7 @@ The target is to predict the students test score, when given the amount they stu
 
 ## View this project
 
-I've generated a [preview file](PREVIEW.md), which allows us to view the jupyter notebook without any further installation steps.🙌
+I've generated a [preview file](PREVIEW.md), which allows us to view the jupyter notebook without any further installation steps.
 
 (Hint: I've done this by running `jupyter nbconvert --to markdown Linear_regression.ipynb`)
 
