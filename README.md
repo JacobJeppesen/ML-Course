@@ -25,7 +25,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 | Week 15   | Project      |     |
 
 # Online course material
-## Machine learning 
+### Machine learning 
 * Original course webpage: [_Machine Learning_ by Andrew Ng](https://www.coursera.org/learn/machine-learning).
 
 * All lectures are available [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).
@@ -34,7 +34,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * Textbook for the course (with Python examples): [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
-## Deep learning 
+### Deep learning 
 * Original course webpage: [_CS231N: Convolutional Neural Networks for Visual Recognition_ from Stanford University](http://cs231n.stanford.edu/)
 
 * All lectures available [here](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
@@ -45,7 +45,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * If you are interested, hundreds of students' final projects from the course are available [here](http://cs231n.stanford.edu/2017/reports.html).
 
-## Statistical Learning (not included in curriculum above)
+### Statistical Learning (not included in curriculum above)
 * Original course webpage: [_Statistical Learning_ by Trevor Hastie and Rob Tibshirani](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
 
 * Python exercises are available [here](https://github.com/JWarmenhoven/ISLR-python) (made by Jordi Warmenhoven).
@@ -53,7 +53,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 * Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html).
 
 # Valuable resources
-## Free textbooks
+### Free textbooks
 * [_Mathematics for Machine Learning_ by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon](https://mml-book.com/)
 
 * [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
@@ -62,14 +62,14 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * [_Deep Learning Book_ by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
 
-## YouTube channels
+### YouTube channels
 * For learning Python: [Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5)
 
 * Mathematics recap: [Math videos by 3Blue1Brown (Grant Sanderson)](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Especially notice his [_Essence of linear algebra_](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and [_Essence of calculus_](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) playlists.
 
 * Short presentations of deep learning research: [_Two Minute Papers_ by Károly Zsolnai-Fehér](https://www.youtube.com/user/keeroyz)
 
-## Programming resources
+### Programming resources
 * A brief introduction to Jupyter Notebook can be found [here](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46).
 
 * A brief introduction to the Python programming language can be found [here](https://stackabuse.com/python-tutorial-for-absolute-beginners/#installationandsetup).
