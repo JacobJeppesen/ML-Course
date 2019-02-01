@@ -1,96 +1,87 @@
 # Overview
-The course is centered around Machine Learning by Andrew Ng and cs231n (deep learning) from Stanford University. Additionally, resources are available for statistical learning, if a more theoretical approach is desired, compared to Andrew Ng's course.
+This repository is a collection of open material to learn machine learning. The curriculum below is designed to match a 5 ECTS point course for Master's level students. It is a combination of lectures and exercises from two courses, namely _Machine Learning_ by Andrew Ng and _CS231n: Convolutional Neural Networks for Visual Recognition_ from Stanford University. The curriculum is designed to cover important aspects of the possiblities when applying machine learning, with plenty of opportunities for students to expand their understanding by following each of the online courses in their full extent. For the interested, additional resources are available for a recommended full course on _Statistical Learning_ by Trevor Hastie and Rob Tibshirani. 
 
-Everything below is free and ready to follow. The curriculum below provides an introduction to machine learning and deep learning for a 5 ECTS points Master's level course. 
+If you would like a brief introduction to machine learning, watch 3Blue1Brown's (Grant Sanderson's) [introduction to neural networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
 
-If you want a good introduction to neural networks to get an overview, go watch 3Blue1Browns (Grant Sanderson) neural networks introduction [here](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+The [ML_in_research](ML_in_research/) folder contains references for novel research within the natural sciences employing deep learning.
 
 # Curriculum
-| Tables    | Are                                       | Resources         |
+|           | Content                                   | Resources         |
 | ----------|-------------------------------------------|-------------------|
-| Week 1    | Linear regression and classification      | Machine Learning by Andrew NG, lecture 1.1 to 2.9 <br> [Exercise 1](Exercises/Exercise1.ipynb)   |
-| Week 2    | Linear regression and classification with multiple variables    |     |
-| Week 3    | Logistic regression and classification|     |
+| Week 1    | Introduction and installation of Python environment | See installation guidelines below.                  |
+| Week 2    | Linear regression      | Machine Learning by Andrew NG, lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br> Exercise 1   |
+| Week 3    | Logistic regression and regularization    | Machine Learning by Andrew NG, lecture 6.1 to 7.4.  <br> Exercise 2  |
 | Week 4    | Winter break      |     |
-| Week 5    | Decision trees and nearest neighbour models      |     |
+| Week 5    | Neural networks      |     |
 | Week 6    | Support Vector Machines      |     |
-| Week 7    | Neural networks      |     |
-| Week 8    | Convolutional Neural Networks      |     |
+| Week 7    | Clustering      |     |
+| Week 8    | Case study using scikit learn    | [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)    |
 | Week 9    | Convolutional Neural Networks      |     |
-| Week 10   | Practical use of ML algorithms      | [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)    |
-| Week 11   | Project       |     |
-| Week 12   | Project      |     |
+| Week 10   | Convolutional Neural Networks      |     |
+| Week 11   | Deep learning in research      | Presentations of papers employing deep learning in research within the natural sciences.    |
+| Week 12   | Project       |     |
 | Week 13   | Project      |     |
 | Week 14   | Project      |     |
+| Week 15   | Project      |     |
 
-# Full online courses
+# Online course material
 ## Machine learning 
-[Coursera's (Stanford's) Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
+* Original course webpage: [_Machine Learning_ by Andrew Ng](https://www.coursera.org/learn/machine-learning).
 
-All lectures [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
+* All lectures are available [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).
 
-Exercises in Python [here](https://github.com/dibgerge/ml-coursera-python-assignments)
-Exercises in Python [here](https://github.com/dibgerge/ml-coursera-python-assignments)
+* Exercises, lecture notes, and lecture slides are available [here](CourseMaterial/MachineLearning/) (exercises were forked from [Gerges Dib](https://github.com/dibgerge/ml-coursera-python-assignments) and lecture notes and slides were forked from [Remy Marquis](https://github.com/rmarquis/coursera-machinelearning)). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as).
 
-or for a more theoretical approach
-
-[Stanford's Statistical Learning by Trevor Hastie and Rob Tibshirani](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
-
-Good textbook for the course: [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/download.html)
-
-Python exercises [here](https://github.com/JWarmenhoven/ISLR-python)
+* Textbook for the course (with Python examples): [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
 ## Deep learning 
-[Stanford's cs231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+* Original course webpage: [_CS231N: Convolutional Neural Networks for Visual Recognition_ from Stanford University](http://cs231n.stanford.edu/)
 
-All lectures available [here](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
+* All lectures available [here](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
 
-Get exercises from their own webpage [here](http://cs231n.github.io/)
+* Get exercises from the course webpage [here](http://cs231n.github.io/)
 
-Good textbook on the subject can be downloaded [here](https://www.deeplearningbook.org/)
+* Textbook for the course: [_Deep Learning Book_ by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
 
-# Other valuable resources
+## Statistical Learning (not included in curriculum above)
+* Original course webpage: [_Statistical Learning_ by Trevor Hastie and Rob Tibshirani](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+
+* Python exercises are available [here](https://github.com/JWarmenhoven/ISLR-python) (made by Jordi Warmenhoven).
+
+* Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html)
+
+# Valuable resources
 ## Free textbooks
-[Mathematics for Machine Learning](https://mml-book.com/)
+* [_Mathematics for Machine Learning_ by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon](https://mml-book.com/)
 
-[Python for Data Science](https://jakevdp.github.io/PythonDataScienceHandbook/)
+* [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
-[Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/download.html)
+* [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html)
 
-[Deep Learning Book](https://www.deeplearningbook.org/)
+* [_Deep Learning Book_ by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
 
 ## YouTube channels
-[Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5)
+* For learning Python: [Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5)
 
-[Math recap by 3Blue1Brown (Grant Sanderson)](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), especially see his [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and [Essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) videos.
+* Mathematics recap: [Math videos by 3Blue1Brown (Grant Sanderson)](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Especially notice his [_Essence of linear algebra_](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and [_Essence of calculus_](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) playlists.
 
-# Programming resources
-## Python tutorials
-My advise is to go through the following tutorial: 
-[Similar to our setup](https://stackabuse.com/python-tutorial-for-absolute-beginners/#installationandsetup)
+* Short presentations of deep learning research: [_Two Minute Papers_ by Károly Zsolnai-Fehér](https://www.youtube.com/user/keeroyz)
 
-For the rest of this course, get examples for Python code from [here](https://jakevdp.github.io/PythonDataScienceHandbook/)
+## Programming resources
+* A brief introduction to Jupyter Notebook can be found [here](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46).
 
-If you would rather have lectures, go [here](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+* A brief introduction to the Python programming language can be found [here](https://stackabuse.com/python-tutorial-for-absolute-beginners/#installationandsetup).
 
-### Full course
-[Larger course with lectures and a book (exercises are in the book)](https://www.py4e.com/)
+* Throughout the course, I advise newcomers to see code examples from [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
-Watch lectures [here](https://www.py4e.com/lessons)
+* A YouTube channel containing many valuable Python lessons can be found at [Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5/playlists).
 
-Download book [here](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
+* For a full course on Python , go [here](https://www.py4e.com/). Lectures are available [here](https://www.py4e.com/lessons) and a book with exercises is available [here](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf).
 
-### If you are interested in improving your general programming skills (not just Python), I very much advise you to take
-[Harvard's cs50: Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)
+* If you are interested in improving your general programming skills (not just Python), I very much advise you to take
+[_CS50: Introduction to Computer Science_ from Harvard](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). All lectures are available [here](https://www.youtube.com/results?search_query=cs50+harvard).
 
-All lectures available [here](https://www.youtube.com/results?search_query=cs50+harvard).
-
-Get help at the subreddit [here](https://www.reddit.com/r/cs50/). 
-
-Following this course, dig into object oriented programming, and you should be good.
-
-
-# Installing our Python environment
+# Installing the Python environment
 1) Install Anaconda with Python 3.7. The installer can be downloaded here:  https://www.anaconda.com/download​ . It will at some point ask if you want to 'Add Anaconda to my PATH environment variable'. The answer to this question is 'no', you do not want to do this.
 
 2) Launch a Jupyter Notebook in Anaconda (use the Anaconda Navigator if you use Windows/Mac or create and run it from a new conda environment if you use Linux).
@@ -103,6 +94,4 @@ Using Anaconda should be seen as a suggestion for newcomers in the field. If you
 
 
 # Acknowledgments
-* For the Machine Learning course, first and foremost thanks to Andrew Ng for putting together the course. Then to Remy Marquis for putting together [lecture notes](https://github.com/rmarquis/coursera-machinelearning), and to Gerges Dib for writing the [Python exercises](https://github.com/dibgerge/ml-coursera-python-assignments).
-
-* Regarding the Statistical 
+The material in this repository has been collected from a variety of sources. Thanks to the authors of the online courses for making their valuable teachings accesible for free. Furthermore, thanks to all authors of the open textbooks, YouTube channels, exercises, and lecture notes.
