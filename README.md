@@ -30,7 +30,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * All lectures are available [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).
 
-* Exercises, lecture notes, and lecture slides are available [here](CourseMaterial/MachineLearning/) (exercises were forked from [Gerges Dib](https://github.com/dibgerge/ml-coursera-python-assignments) and lecture notes and slides were forked from [Remy Marquis](https://github.com/rmarquis/coursera-machinelearning)). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as).
+* Exercises, lecture notes, and lecture slides are available [here](CourseMaterial/MachineLearning/). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as). Note: the submission and grading cells in the exercises should be ignored (they are only for students obtaining a certificate from Coursera).
 
 * Textbook for the course (with Python examples): [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
@@ -95,3 +95,5 @@ Using Anaconda should be seen as a suggestion for newcomers in the field. If you
 
 # Acknowledgments
 The material in this repository has been collected from a variety of sources. Thanks to the authors of the online courses for making their valuable teachings accesible for free. Furthermore, thanks to all authors of the open textbooks, YouTube channels, exercises, and lecture notes.
+
+Machine learning exercises were forked from [Gerges Dib](https://github.com/dibgerge/ml-coursera-python-assignments) and lecture notes and slides were forked from [Remy Marquis](https://github.com/rmarquis/coursera-machinelearning).
