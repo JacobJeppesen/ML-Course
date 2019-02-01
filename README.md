@@ -74,14 +74,14 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * A brief introduction to the Python programming language can be found [here](https://stackabuse.com/python-tutorial-for-absolute-beginners/#installationandsetup).
 
-* Throughout the course, I advise newcomers to see code examples from [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
+* I advise newcomers to see code examples during the course from [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
 * A YouTube channel containing many valuable Python lessons can be found at [Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5/playlists).
 
-* For a full course on Python , go [here](https://www.py4e.com/). Lectures are available [here](https://www.py4e.com/lessons) and a book with exercises is available [here](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf).
+* For a full course on Python, go [here](https://www.py4e.com/). Lectures are available [here](https://www.py4e.com/lessons) and a book with exercises is available [here](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf).
 
 * If you are interested in improving your general programming skills (not just Python), I very much advise you to take
-[_CS50: Introduction to Computer Science_ from Harvard](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). All lectures are available [here](https://www.youtube.com/results?search_query=cs50+harvard).
+[_CS50: Introduction to Computer Science_ from Harvard](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). All lectures are available [here](https://www.youtube.com/watch?v=5azaK2cBKGw&list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH).
 
 # Installing the Python environment
 1) Install Anaconda with Python 3.7. The installer can be downloaded here:  https://www.anaconda.com/download​ . It will at some point ask if you want to 'Add Anaconda to my PATH environment variable'. The answer to this question is 'no', you do not want to do this.
