@@ -9,8 +9,8 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 |           | Content                                   | Resources         |
 | ----------|-------------------------------------------|-------------------|
 | Week 1    | Introduction and installation of Python environment | See installation guidelines below.                  |
-| Week 2    | Linear regression      | Machine Learning by Andrew NG, lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br> Exercise 1   |
-| Week 3    | Logistic regression and regularization    | Machine Learning by Andrew NG, lecture 6.1 to 7.4.  <br> Exercise 2  |
+| Week 2    | Linear regression      | Machine Learning by Andrew NG, lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br> [Exercise 1](CourseMaterial/MachineLearning/Exercises)   |
+| Week 3    | Logistic regression and regularization    | Machine Learning by Andrew NG, lecture 6.1 to 7.4.  <br> [Exercise 2](CourseMaterial/MachineLearning/Exercises)  |
 | Week 4    | Winter break      |     |
 | Week 5    | Neural networks      |     |
 | Week 6    | Support Vector Machines      |     |
