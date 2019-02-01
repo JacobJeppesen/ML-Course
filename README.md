@@ -1,5 +1,5 @@
 # Overview
-This repository is a collection of open material to learn machine learning. The curriculum below is designed to match a 5 ECTS point course for Master's level students. It is a combination of lectures and exercises from two courses, namely _Machine Learning_ by Andrew Ng and _CS231n: Convolutional Neural Networks for Visual Recognition_ from Stanford University. The curriculum is designed to cover important aspects of the possiblities when applying machine learning, with plenty of opportunities for students to expand their understanding by following each of the online courses in their full extent. For the interested, additional resources are available for a recommended full course on _Statistical Learning_ by Trevor Hastie and Rob Tibshirani. 
+This repository is a collection of open material to learn machine learning. The curriculum below is designed to match a 5 ECTS point course for Master's level students. It is a combination of lectures and exercises from two courses, namely [_Machine Learning_ by Andrew Ng](https://www.coursera.org/learn/machine-learning) and [_CS231N: Convolutional Neural Networks for Visual Recognition_ from Stanford University](http://cs231n.stanford.edu/). All exercises are to be solved by downloading them to your local computer and solve them using Jupyter Notebook. The curriculum is designed to cover important aspects of the possiblities when applying machine learning, with plenty of opportunities for students to expand their understanding by following each of the online courses in their full extent. For the interested, additional resources are available for a recommended full course on [_Statistical Learning_ by Trevor Hastie and Rob Tibshirani](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/). 
 
 If you would like a brief introduction to machine learning, watch 3Blue1Brown's (Grant Sanderson's) [introduction to neural networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
 
@@ -8,9 +8,9 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 # Curriculum
 |           | Content                                   | Resources         |
 | ----------|-------------------------------------------|-------------------|
-| Week 1    | Introduction and installation of Python environment | See installation guidelines below.                  |
-| Week 2    | Linear regression      | Machine Learning by Andrew NG, lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br> [Exercise 1](CourseMaterial/MachineLearning/Exercises)   |
-| Week 3    | Logistic regression and regularization    | Machine Learning by Andrew NG, lecture 6.1 to 7.4.  <br> [Exercise 2](CourseMaterial/MachineLearning/Exercises)  |
+| Week 1    | Introduction and installation of Python environment | See [installation guidelines](#installing-the-python-environment) below.                  |
+| Week 2    | Linear regression      | Video lectures: [Machine Learning by Andrew NG](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br>  Exercises: [Exercise 1](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 1](CourseMaterial/MachineLearning/LectureSlides/Lecture1.pdf) and [Lecture 2](CourseMaterial/MachineLearning/LectureSlides/Lecture2.pdf) (optional: [Lecture 4](CourseMaterial/MachineLearning/LectureSlides/Lecture4.pdf)) <br>  Lecture notes: [Lecture 1](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-01.ipynb) and [Lecture 2](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-02.ipynb) (optional: [Lecture 4](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-04.ipynb))|
+| Week 3    | Logistic regression and regularization      | Video lectures: [Machine Learning by Andrew NG](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 6.1 to 7.4. <br>  Exercises: [Exercise 2](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 6](CourseMaterial/MachineLearning/LectureSlides/Lecture6.pdf) and [Lecture 7](CourseMaterial/MachineLearning/LectureSlides/Lecture7.pdf) <br>  Lecture notes: [Lecture 6](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-06.ipynb) and [Lecture 7](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-07.ipynb)|
 | Week 4    | Winter break      |     |
 | Week 5    | Neural networks      |     |
 | Week 6    | Support Vector Machines      |     |
@@ -30,7 +30,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * All lectures are available [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).
 
-* Exercises, lecture notes, and lecture slides are available [here](CourseMaterial/MachineLearning/). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as). Note: the submission and grading cells in the exercises should be ignored (they are only for students obtaining a certificate from Coursera).
+* Course material is available [here](CourseMaterial/MachineLearning/). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as). Note: the submission and grading cells in the exercises should be ignored (they are only for students obtaining a certificate from Coursera).
 
 * Textbook for the course (with Python examples): [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
@@ -43,12 +43,14 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * Textbook for the course: [_Deep Learning Book_ by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
 
+* If you are interested, hundreds of students' final projects from the course are available [here](http://cs231n.stanford.edu/2017/reports.html).
+
 ## Statistical Learning (not included in curriculum above)
 * Original course webpage: [_Statistical Learning_ by Trevor Hastie and Rob Tibshirani](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
 
 * Python exercises are available [here](https://github.com/JWarmenhoven/ISLR-python) (made by Jordi Warmenhoven).
 
-* Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html)
+* Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html).
 
 # Valuable resources
 ## Free textbooks
