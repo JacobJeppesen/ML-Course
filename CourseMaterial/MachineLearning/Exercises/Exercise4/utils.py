@@ -2,9 +2,6 @@ import sys
 import numpy as np
 from matplotlib import pyplot
 
-sys.path.append('..')
-from submission import SubmissionBase
-
 
 def displayData(X, example_width=None, figsize=(10, 10)):
     """
@@ -177,50 +174,3 @@ def sigmoid(z):
     Computes the sigmoid of z.
     """
     return 1.0 / (1.0 + np.exp(-z))
-
-
-class Grader(SubmissionBase):
-    X = np.reshape(3 * np.sin(np.arange(1, 31)), (3, 10), order='F')
-    Xm = np.reshape(np.sin(np.arange(1, 33)), (16, 2), order='F') / 5
-    ym = np.arange(1, 17) % 4
-    t1 = np.sin(np.reshape(np.arange(1, 25, 2), (4, 3), order='F'))
-    t2 = np.cos(np.reshape(np.arange(1, 41, 2), (4, 5), order='F'))
-    t = np.concatenate([t1.ravel(), t2.ravel()], axis=0)
-
-    def __init__(self):
-        part_names = ['Feedforward and Cost Function',
-                      'Regularized Cost Function',
-                      'Sigmoid Gradient',
-                      'Neural Network Gradient (Backpropagation)',
-                      'Regularized Gradient']
-        super().__init__('neural-network-learning', part_names)
-
-    def __iter__(self):
-        for part_id in range(1, 6):
-            try:
-                func = self.functions[part_id]
-
-                # Each part has different expected arguments/different function
-                if part_id == 1:
-                    res = func(self.t, 2, 4, 4, self.Xm, self.ym, 0)[0]
-                elif part_id == 2:
-                    res = func(self.t, 2, 4, 4, self.Xm, self.ym, 1.5)
-                elif part_id == 3:
-                    res = func(self.X, )
-                elif part_id == 4:
-                    J, grad = func(self.t, 2, 4, 4, self.Xm, self.ym, 0)
-                    grad1 = np.reshape(grad[:12], (4, 3))
-                    grad2 = np.reshape(grad[12:], (4, 5))
-                    grad = np.concatenate([grad1.ravel('F'), grad2.ravel('F')])
-                    res = np.hstack([J, grad]).tolist()
-                elif part_id == 5:
-                    J, grad = func(self.t, 2, 4, 4, self.Xm, self.ym, 1.5)
-                    grad1 = np.reshape(grad[:12], (4, 3))
-                    grad2 = np.reshape(grad[12:], (4, 5))
-                    grad = np.concatenate([grad1.ravel('F'), grad2.ravel('F')])
-                    res = np.hstack([J, grad]).tolist()
-                else:
-                    raise KeyError
-                yield part_id, res
-            except KeyError:
-                yield part_id, 0

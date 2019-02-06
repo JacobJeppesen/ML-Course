@@ -9,9 +9,9 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 |           | Content                                   | Resources         |
 | ----------|-------------------------------------------|-------------------|
 | Week 1    | Introduction and installation of Python environment | See [installation guidelines](#installing-the-python-environment) below.                  |
-| Week 2    | Linear regression      | Video lectures: [Machine Learning by Andrew NG](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br>  Exercises: [Exercise 1](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 1](CourseMaterial/MachineLearning/LectureSlides/Lecture1.pdf) and [Lecture 2](CourseMaterial/MachineLearning/LectureSlides/Lecture2.pdf) (optional: [Lecture 4](CourseMaterial/MachineLearning/LectureSlides/Lecture4.pdf)) <br>  Lecture notes: [Notes 1](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-01.ipynb) and [Notes 2](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-02.ipynb)|
-| Week 3    | Logistic regression and regularization      | Video lectures: [Machine Learning by Andrew NG](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 6.1 to 7.4. <br>  Exercises: [Exercise 2](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 6](CourseMaterial/MachineLearning/LectureSlides/Lecture6.pdf) and [Lecture 7](CourseMaterial/MachineLearning/LectureSlides/Lecture7.pdf) <br>  Lecture notes: [Notes 3](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-03.ipynb)|
-| Week 4    | Winter break      |     |
+| Week 2    | Linear regression      | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 1.1 to 2.8 (optional: lecture  4.1 to 4.9 for linear regression with multiplie variables). <br>  Exercises: [Exercise 1](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 1](CourseMaterial/MachineLearning/LectureSlides/Lecture1.pdf) and [Lecture 2](CourseMaterial/MachineLearning/LectureSlides/Lecture2.pdf) (optional: [Lecture 4](CourseMaterial/MachineLearning/LectureSlides/Lecture4.pdf)) <br>  Lecture notes: [Notes 1](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-01.ipynb) and [Notes 2](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-02.ipynb)|
+| Week 3    | Winter break      |     |
+| Week 4    | Logistic regression and regularization      | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 6.1 to 7.4. <br>  Exercises: [Exercise 2](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 6](CourseMaterial/MachineLearning/LectureSlides/Lecture6.pdf) and [Lecture 7](CourseMaterial/MachineLearning/LectureSlides/Lecture7.pdf) <br>  Lecture notes: [Notes 3](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-03.ipynb)|
 | Week 5    | Neural networks      |     |
 | Week 6    | Support Vector Machines      |     |
 | Week 7    | Clustering      |     |
@@ -30,7 +30,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * All lectures are available [here](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).
 
-* Course material is available [here](CourseMaterial/MachineLearning/). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as). Note: the submission and grading cells in the exercises should be ignored (they are only for students obtaining a certificate from Coursera).
+* Course material is available [here](CourseMaterial/MachineLearning/). All exercises can be downloaded as a zip file [here](CourseMaterial/MachineLearning/Exercises/AllExercisesForDownload.zip) (right click -> save as). The exercises are modified versions of those implemented by [Gerges Dib](https://github.com/dibgerge/ml-coursera-python-assignments).
 
 * Textbook for the course (with Python examples): [_Python for Data Science_ by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/).
 

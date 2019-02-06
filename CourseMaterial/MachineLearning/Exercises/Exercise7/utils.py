@@ -4,9 +4,6 @@ from matplotlib import pyplot
 from matplotlib.animation import FuncAnimation
 import matplotlib as mpl
 
-sys.path.append('..')
-from submission import SubmissionBase
-
 
 def displayData(X, example_width=None, figsize=(10, 10)):
     """
@@ -196,41 +193,3 @@ def runkMeans(X, centroids, findClosestCentroids, computeCentroids,
         return centroids, idx, anim
 
     return centroids, idx
-
-
-class Grader(SubmissionBase):
-    # Random Test Cases
-    X = np.sin(np.arange(1, 166)).reshape(15, 11, order='F')
-    Z = np.cos(np.arange(1, 122)).reshape(11, 11, order='F')
-    C = Z[:5, :]
-    idx = np.arange(1, 16) % 3
-
-    def __init__(self):
-        part_names = ['Find Closest Centroids (k-Means)',
-                      'Compute Centroid Means (k-Means)',
-                      'PCA',
-                      'Project Data (PCA)',
-                      'Recover Data (PCA)']
-        super().__init__('k-means-clustering-and-pca', part_names)
-
-    def __iter__(self):
-        for part_id in range(1, 6):
-            try:
-                func = self.functions[part_id]
-                # Each part has different expected arguments/different function
-                if part_id == 1:
-                    res = 1 + func(self.X, self.C)
-                elif part_id == 2:
-                    res = func(self.X, self.idx, 3)
-                elif part_id == 3:
-                    U, S = func(self.X)
-                    res = np.hstack([U.ravel('F'), np.diag(S).ravel('F')]).tolist()
-                elif part_id == 4:
-                    res = func(self.X, self.Z, 5)
-                elif part_id == 5:
-                    res = func(self.X[:, :5], self.Z, 5)
-                else:
-                    raise KeyError
-                yield part_id, res
-            except KeyError:
-                yield part_id, 0

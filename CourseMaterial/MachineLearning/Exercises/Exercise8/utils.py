@@ -3,9 +3,6 @@ import sys
 from os.path import join
 from matplotlib import pyplot
 
-sys.path.append('..')
-from submission import SubmissionBase
-
 
 def normalizeRatings(Y, R):
     """
@@ -210,60 +207,3 @@ def visualizeFit(X, mu, sigma2):
 
     if np.all(abs(Z) != np.inf):
         pyplot.contour(X1, X2, Z, levels=10**(np.arange(-20., 1, 3)), zorder=100)
-
-
-class Grader(SubmissionBase):
-    # Random Test Cases
-    n_u = 3
-    n_m = 4
-    n = 5
-    X = np.sin(np.arange(1, 1 + n_m * n)).reshape(n_m, n, order='F')
-    Theta = np.cos(np.arange(1, 1 + n_u * n)).reshape(n_u, n, order='F')
-    Y = np.sin(np.arange(1, 1 + 2 * n_m * n_u, 2)).reshape(n_m, n_u, order='F')
-    R = Y > 0.5
-    pval = np.concatenate([abs(Y.ravel('F')),  [0.001],  [1]])
-    Y = Y * R  # set 'Y' values to 0 for movies not reviewed
-
-    yval = np.concatenate([R.ravel('F'), [1], [0]])
-    #
-    params = np.concatenate([X.ravel(), Theta.ravel()])
-
-    def __init__(self):
-        part_names = ['Estimate Gaussian Parameters',
-                      'Select Threshold',
-                      'Collaborative Filtering Cost',
-                      'Collaborative Filtering Gradient',
-                      'Regularized Cost',
-                      'Regularized Gradient']
-        super().__init__('anomaly-detection-and-recommender-systems', part_names)
-
-    def __iter__(self):
-        for part_id in range(1, 7):
-            try:
-                func = self.functions[part_id]
-
-                # Each part has different expected arguments/different function
-                if part_id == 1:
-                    res = np.hstack(func(self.X)).tolist()
-                elif part_id == 2:
-                    res = np.hstack(func(self.yval, self.pval)).tolist()
-                elif part_id == 3:
-                    J, grad = func(self.params, self.Y, self.R, self.n_u, self.n_m, self.n)
-                    res = J
-                elif part_id == 4:
-                    J, grad = func(self.params, self.Y, self.R, self.n_u, self.n_m, self.n, 0)
-                    xgrad = grad[:self.n_m*self.n].reshape(self.n_m, self.n)
-                    thetagrad = grad[self.n_m*self.n:].reshape(self.n_u, self.n)
-                    res = np.hstack([xgrad.ravel('F'), thetagrad.ravel('F')]).tolist()
-                elif part_id == 5:
-                    res, _ = func(self.params, self.Y, self.R, self.n_u, self.n_m, self.n, 1.5)
-                elif part_id == 6:
-                    J, grad = func(self.params, self.Y, self.R, self.n_u, self.n_m, self.n, 1.5)
-                    xgrad = grad[:self.n_m*self.n].reshape(self.n_m, self.n)
-                    thetagrad = grad[self.n_m*self.n:].reshape(self.n_u, self.n)
-                    res = np.hstack([xgrad.ravel('F'), thetagrad.ravel('F')]).tolist()
-                else:
-                    raise KeyError
-                yield part_id, res
-            except KeyError:
-                yield part_id, 0

@@ -1,7 +1,4 @@
 import sys
-
-sys.path.append('..')
-from submission import SubmissionBase
 import numpy as np
 from scipy.io import loadmat
 from os.path import join
@@ -680,39 +677,3 @@ class PorterStemmer:
         self.step4()
         self.step5()
         return self.b[self.k0:self.k+1]
-
-
-class Grader(SubmissionBase):
-    # Random Test Cases
-    x1 = np.sin(np.arange(1, 11))
-    x2 = np.cos(np.arange(1, 11))
-    ec = 'the quick brown fox jumped over the lazy dog'
-    wi = np.abs(np.round(x1 * 1863)).astype(int)
-    wi = np.concatenate([wi, wi])
-
-    def __init__(self):
-        part_names = ['Gaussian Kernel',
-                      'Parameters (C, sigma) for Dataset 3',
-                      'Email Processing',
-                      'Email Feature Extraction']
-        super().__init__('support-vector-machines', part_names)
-
-    def __iter__(self):
-        for part_id in range(1, 5):
-            try:
-                func = self.functions[part_id]
-                # Each part has different expected arguments/different function
-                if part_id == 1:
-                    res = func(self.x1, self.x2, 2)
-                elif part_id == 2:
-                    res = np.hstack(func()).tolist()
-                elif part_id == 3:
-                    # add one to be compatible with matlab grader
-                    res = [ind+1 for ind in func(self.ec, False)]
-                elif part_id == 4:
-                    res = func(self.wi)
-                else:
-                    raise KeyError
-                yield part_id, res
-            except KeyError:
-                yield part_id, 0
