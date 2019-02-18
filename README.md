@@ -14,12 +14,12 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 | Week 4    | Logistic regression and regularization                | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 6.1 to 7.4. <br>  Exercises: [Exercise 2](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 6](CourseMaterial/MachineLearning/LectureSlides/Lecture6.pdf) and [Lecture 7](CourseMaterial/MachineLearning/LectureSlides/Lecture7.pdf) <br>  Lecture notes: [Notes 3](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-03.ipynb)|
 | Week 5    | Neural networks                                       | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 8.1 to 9.8. <br>  Exercises: [Exercise 4](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 8](CourseMaterial/MachineLearning/LectureSlides/Lecture8.pdf) and [Lecture 9](CourseMaterial/MachineLearning/LectureSlides/Lecture9.pdf) <br>  Lecture notes: [Notes 4](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-04.ipynb) and [Notes 5](CourseMaterial/MachineLearning/LectureNotes/MachineLearning-05.ipynb)    |
 | Week 6    | Support Vector Machines                               | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 10.1 to 10.7 and 12.1 to 12.6. <br>  Exercises: [Exercise 6](CourseMaterial/MachineLearning/Exercises) <br>  Lecture slides: [Lecture 10](CourseMaterial/MachineLearning/LectureSlides/Lecture10.pdf) and [Lecture 12](CourseMaterial/MachineLearning/LectureSlides/Lecture12.pdf)       |
-| Week 7    | Clustering                                            |     |
-| Week 8    | Case study using scikit learn                         | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 11.1 to 11.5. <br>[Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)    |
-| Week 9    | Convolutional Neural Networks                         |     |
-| Week 10   | Convolutional Neural Networks                         |     |
-| Week 11   | Deep learning in research                             | Presentations of papers employing deep learning in research within the natural sciences.    |
-| Week 12   | Project                                               |     |
+| Week 7    | Case study using scikit learn                         | Video lectures: [Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), lecture 11.1 to 11.5. <br>[Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)    |
+| Week 8    | Convolutional Neural Networks                         | Video lectures: CS231n from Stanford University 2016, [lecture 6 (from 57m30s to the end)](https://www.youtube.com/watch?v=hd_KFJ5ktUc&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC&index=6#t=57m30s) and [lecture 7](https://www.youtube.com/watch?v=LxfUGhug-iQ&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC&index=7)    |
+| Week 8    | Convolutional Neural Networks                         | Video lectures: CS231n from Stanford University 2016, [lecture 8](https://www.youtube.com/watch?v=GxZrEKZfW2o&index=8&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)   |
+| Week 10    | Recurrent Neural Networks                            | Video lectures: CS231n from Stanford University 2016, [lecture 10](https://www.youtube.com/watch?v=yCC09vCHzF8&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC&index=10)    |
+| Week 11   | Project (or deep learning in research)                |     |
+| Week 12   | Easter break                                          |     |
 | Week 13   | Project                                               |     |
 | Week 14   | Project                                               |     |
 | Week 15   | Project                                               |     |
@@ -37,7 +37,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 ### Deep learning 
 * Original course webpage: [_CS231N: Convolutional Neural Networks for Visual Recognition_ from Stanford University](http://cs231n.stanford.edu/)
 
-* All lectures available [here](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
+* All lectures from 2016 available [here](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC) and all lecture from 2017 available [here](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
 
 * Get exercises from the course webpage [here](http://cs231n.github.io/)
 
