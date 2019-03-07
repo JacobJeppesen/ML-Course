@@ -1,0 +1,2 @@
+# RNN Exercise
+This "exercise" was forked from Gabiela Molinar's [implementation](https://github.com/gabrielamolinar/LSTM_TSForecasting) of the "Time series forecasting using LSTM" [Blog article from Jason Brownlee](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/). At the moment, there have been made no alterations, and there is therefore no "exercise" to be done. But try reading the blog and play around with the implementation to gain an intuitive understanding of the workings of LSTM cells.
