@@ -70,7 +70,7 @@ six==1.11.0
 snowballstemmer==1.2.1
 Sphinx==1.7.2
 sphinxcontrib-websupport==1.0.1
-tensorflow==1.2.1
+tensorflow==1.15.2
 terminado==0.8.1
 testpath==0.3.1
 tornado==5.0.1
