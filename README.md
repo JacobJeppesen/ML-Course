@@ -62,7 +62,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 
 * [_Deep Learning Book_ by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
 
-* [_Pattern Recognition and Machine Learning_ by Christopher Bishop](https://www.deeplearningbook.org/) (Python implementations of algorithms available [here](https://github.com/ctgk/PRML))
+* [_Pattern Recognition and Machine Learning_ by Christopher Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/) (Python implementations of algorithms available [here](https://github.com/ctgk/PRML))
 
 ### YouTube channels
 * For learning Python: [Python tutorials by Corey Schafer](https://www.youtube.com/user/schafer5)
