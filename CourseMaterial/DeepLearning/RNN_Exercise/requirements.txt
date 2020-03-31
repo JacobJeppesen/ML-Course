@@ -3,7 +3,7 @@ asn1crypto==0.24.0
 Babel==2.5.3
 backcall==0.1.0
 backports.weakref==1.0rc1
-bleach==1.5.0
+bleach==3.1.4
 certifi==2018.1.18
 cffi==1.11.5
 chardet==3.0.4
