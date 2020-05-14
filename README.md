@@ -86,7 +86,7 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 [_CS50: Introduction to Computer Science_ from Harvard](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). All lectures are available [here](https://www.youtube.com/watch?v=5azaK2cBKGw&list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH).
 
 ### More free online courses
-* The Coursera Machine Learning course we use in the curriculum above is a slimmed down version of CS229 from Stanford University, which presents the same subjects as the Coursera version, but from a more mathematically rigorous point of view. Full curriculum and exercises are available at [CS229 at Stanford University](http://cs229.stanford.edu/syllabus-autumn2018.html) with [lectures on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
+* The Coursera Machine Learning course we use in the curriculum above is a slimmed down version of CS229 from Stanford University, which presents the same subjects as the Coursera version, but from a more mathematically rigorous point of view. This course is available at [CS229 at Stanford University](http://cs229.stanford.edu/syllabus-autumn2018.html) with [lectures on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
 
 * Many free online courses on machine learning has been collected in [this list](https://github.com/luspr/awesome-ml-courses), including ones on more advanced topics.
 
