@@ -53,12 +53,6 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 * Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html).
 
 # Valuable resources
-### Free online courses
-
-* The Coursera Machine Learning course we use in the curriculum above is a slimmed down version of CS229 from Stanford University, which presents the same subjects as the Coursera version, but from a more mathematically rigorous point of view. Full curriculum and exercises are available at [CS229 at Stanford University](http://cs229.stanford.edu/syllabus-autumn2018.html) with [lectures on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
-
-* Many free online courses on machine learning has been collected in [this list](https://github.com/luspr/awesome-ml-courses), including ones on more advanced topics.
-
 ### Free textbooks
 * [_Mathematics for Machine Learning_ by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon](https://mml-book.com/)
 
@@ -91,6 +85,13 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 * If you are interested in improving your general programming skills (not just Python), I very much advise you to take
 [_CS50: Introduction to Computer Science_ from Harvard](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). All lectures are available [here](https://www.youtube.com/watch?v=5azaK2cBKGw&list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH).
 
+### More free online courses
+
+* The Coursera Machine Learning course we use in the curriculum above is a slimmed down version of CS229 from Stanford University, which presents the same subjects as the Coursera version, but from a more mathematically rigorous point of view. Full curriculum and exercises are available at [CS229 at Stanford University](http://cs229.stanford.edu/syllabus-autumn2018.html) with [lectures on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
+
+* Many free online courses on machine learning has been collected in [this list](https://github.com/luspr/awesome-ml-courses), including ones on more advanced topics.
+
+
 # Installing the Python environment
 1) Install Anaconda with Python 3.7. The installer can be downloaded here:  https://www.anaconda.com/download​ . It will at some point ask if you want to 'Add Anaconda to my PATH environment variable'. The answer to this question is 'no', you do not want to do this.
 
@@ -101,7 +102,6 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 4) Assuming that the computer is having a good day, you should see the words "Hello, World!" being printed. If this is not the case, or you never even made it to step 4, then do not worry. Take a deep breath and a sip of your coffee. Search for solutions online and try one more time. 
 
 Using Anaconda should be seen as a suggestion for newcomers in the field. If you already have another solution running, such as using Docker containers, you are welcome to continue in this way. 
-
 
 # Acknowledgments
 The material in this repository has been collected from a variety of sources. Thanks to the authors of the online courses for making their valuable teachings accesible for free. Furthermore, thanks to all authors of the open textbooks, YouTube channels, exercises, and lecture notes.
