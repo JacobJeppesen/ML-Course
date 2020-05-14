@@ -53,6 +53,12 @@ The [ML_in_research](ML_in_research/) folder contains references for novel resea
 * Textbook for the course: [_Elements of Statistical Learning_ by Trevor Hastie, Rob Tibshirani, and Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/download.html).
 
 # Valuable resources
+### Free online courses
+
+* The Coursera Machine Learning course we use in the curriculum above is a slimmed down version of CS229 from Stanford University, which presents the same subjects as the Coursera version, but from a more mathematically rigorous point of view. Full curriculum and exercises are available at [CS229 at Stanford University](http://cs229.stanford.edu/syllabus-autumn2018.html) with [lectures on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
+
+* Many free online courses on machine learning has been collected in [this list](https://github.com/luspr/awesome-ml-courses), including ones on more advanced topics.
+
 ### Free textbooks
 * [_Mathematics for Machine Learning_ by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon](https://mml-book.com/)
 
