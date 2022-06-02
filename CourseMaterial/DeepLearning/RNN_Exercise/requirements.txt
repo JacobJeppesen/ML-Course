@@ -14,7 +14,7 @@ decorator==4.3.0
 docutils==0.14
 entrypoints==0.2.3
 h5py==2.7.1
-html5lib==0.9999999
+html5lib==0.99999999
 idna==2.6
 imagesize==1.0.0
 ipykernel==4.8.2
